@@ -8,7 +8,6 @@ if __name__ == '__main__':
     path = os.getcwd()
     with open(path+'/'+'config.json') as file:
         conf = json.load(file)['postgresql']
-        
     try:
         conn = psycopg2.connect(host=conf['host'],
                                 database=conf['db'], 

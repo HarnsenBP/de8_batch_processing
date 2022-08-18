@@ -1,6 +1,6 @@
 {
     "postgresql":{
-        "host":"localhost",
+        "host":"172.25.192.1",
         "db":"digitalskola",
         "user":"postgres",
         "pwd":"h123s098",
